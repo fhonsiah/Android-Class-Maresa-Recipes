@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/ivImage_two"
+        android:src="@drawable/img_pilau"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:hint="Recipe Name"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:id="@+id/tv_recipe_name"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="@string/txtDescription"
+        android:textSize="19sp"
+        android:id="@+id/txtDescription"
+        />
+
+    <TextView
+        android:layout_gravity="end"
+        android:id="@+id/tvPrice"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="Price"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="19sp"
+        android:textStyle="italic" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+     <Button
+         android:layout_width="140dp"
+         android:layout_height="60dp"
+         android:id="@+id/btn_delete"
+         android:backgroundTint="@color/colorPrimary"
+         android:text="@string/btn_delete"
+         android:textSize="22sp"
+         android:textStyle="bold"
+         android:textColor="#ffffff"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentRight="true"
+         android:layout_margin="20dp"
+         android:onClick="btnDeleteRecipe"/>
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:id="@+id/btn_update"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="@string/btn_update"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="20dp"
+            android:onClick="btnUpdateRecipe"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

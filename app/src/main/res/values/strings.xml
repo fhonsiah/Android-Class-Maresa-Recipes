@@ -1,0 +1,41 @@
+<resources>
+    <string name="tv_welcome">Welcome to Maressa Recipes</string>
+    <string name="app_name">Recipe_App</string>
+    <string name="edtName">Enter name</string>
+    <string name="edtPassword">Enter password</string>
+    <string name="btnLogin">LOGIN</string>
+    <string name="tv_info">No of attempts remaining</string>
+    <string name="tv_forgotpswd">forgot password?</string>
+    <string name="tv_register">New User? Sign In!</string>
+
+    <string name="edt_username">Enter name</string>
+    <string name="edt_useremail">Enter email</string>
+    <string name="edt_userpassword">Enter password</string>
+    <string name="btn_register">SignUp</string>
+    <string name="tv_userlogin">Already registered? Log In!</string>
+
+
+    <string name="SettingsMenu">Settings</string>
+    <string name="RefreshMenu">Refresh</string>
+    <string name="Logoutmenu">Logout</string>
+
+    <string name="edt_passwordEmail">Enter Email</string>
+    <string name="btn_passwordReset">Reset Password"</string>
+
+    <string name="tv_Title">Title</string>
+    <string name="tv_Description">Desription</string>
+    <string name="tv_Price">Tsh.3000</string>
+    <string name="txtDescription">Description</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_update">Update</string>
+    <string name="edt_searchtext">Search</string>
+
+    <string name="edittext_recipe">Recipe name</string>
+    <string name="edittext_description">Description</string>
+    <string name="edittext_price">Price</string>
+    <string name="btn_selectImage">Select Image</string>
+    <string name="btn_uploadImage">Upload Recipe</string>
+    <string name="btn_update_rcp">Update recipe</string>
+
+
+</resources>
